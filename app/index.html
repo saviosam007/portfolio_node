@@ -1,0 +1,711 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>
+<html lang="en" ng-app="myApp" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>
+<html lang="en" ng-app="myApp" class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>
+<html lang="en" ng-app="myApp" class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="en" ng-app="myApp" class="no-js"> <!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Savio's Portfolio</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="bower_components/html5-boilerplate/dist/css/normalize.css">
+    <link rel="stylesheet" href="bower_components/html5-boilerplate/dist/css/main.css">
+    <link rel="stylesheet" href="app.css">
+    <script src="bower_components/html5-boilerplate/dist/js/vendor/modernizr-2.8.3.min.js"></script>
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- animate css -->
+    <link href="css/animate.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="css/agency.css" rel="stylesheet">
+    <link href="css/book.css" rel="stylesheet">
+    <link href="bower_components/angularjs-toaster/toaster.css" rel="stylesheet" type="text/css">
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet'
+          type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+<body id="page-top" class="index">
+
+<!-- Navigation -->
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                    data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <li class="hidden">
+                    <a href="#page-top"></a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="#portfolio">Portfolio</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="#about">About</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="#team">Skills</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container-fluid -->
+</nav>
+
+<!-- Header -->
+<header>
+    <div class="container">
+        <div class="intro-text col-sm-12">
+            <span class="intro-heading animated fadeInLeftBig">HELLO</span>
+            <br>
+            <span class="intro-heading animated fadeInRightBig">MY NAME IS</span>
+            <br>
+            <span class="intro-heading animated flip" id="name">SAVIO</span>
+            <br>
+            <hr class="left animated swing">
+            <span class="intro-lead-in">&</span>
+            <hr class="right animated swing">
+            <br><br>
+            <span class="intro-heading animated fadeInUpBig">I'M A FRONT END DEVELOPER</span>
+            <br>
+            <br>
+            <a href="#about" class="page-scroll btn btn-xl animated rollIn">Tell Me More</a>
+        </div>
+    </div>
+</header>
+
+<!-- Services Section -->
+
+<!-- Portfolio Grid Section -->
+<section id="portfolio" class="bg-light-gray">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">Portfolio</h2>
+
+                <h3 class="section-subheading text-muted">My Journey till now !!</h3>
+            </div>
+        </div>
+        <div class="row">
+
+            <div class="col-md-4 col-sm-4 portfolio-item">
+                <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+                    <div class="portfolio-hover">
+                        <div class="portfolio-hover-content">
+                            <i class="fa fa-plus fa-3x"></i>
+                        </div>
+                    </div>
+                    <img src="img/portfolio/general-motors.jpg" class="img-responsive" style="width:360px;height:270px"
+                         alt="">
+                </a>
+            </div>
+            <div class="col-md-4 col-sm-4 portfolio-item">
+                <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
+                    <div class="portfolio-hover">
+                        <div class="portfolio-hover-content">
+                            <i class="fa fa-plus fa-3x"></i>
+                        </div>
+                    </div>
+                    <img src="img/portfolio/db.jpg" class="img-responsive" alt="">
+                </a>
+            </div>
+            <div class="col-md-4 col-sm-4 portfolio-item">
+                <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
+                    <div class="portfolio-hover">
+                        <div class="portfolio-hover-content">
+                            <i class="fa fa-plus fa-3x"></i>
+                        </div>
+                    </div>
+                    <img src="img/portfolio/HCL.png" class="img-responsive" alt="">
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- About Section -->
+<section id="about">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">About Me</h2>
+            </div>
+        </div>
+        <br><br><br>
+
+        <div class="row">
+            <div class="col-md-12">
+                <!--                <ul class="timeline">
+                                    <li>
+                                        <div  class="col-md-6">
+                                            <img class="img-circle img-responsive" src="img/about/saviodp.jpg" alt="">
+                                        </div>-->
+                <div class="col-md-7">
+                    <div class="timeline-heading">
+                        <h4 class="subheading">Who am I??</h4>
+                    </div>
+                    <div class="timeline-body">
+                        <p class="text-muted">I'm a Front End Developer based in Chicago, I firmly believe that
+                            user experience is all about the ideas and process, not the artifacts.
+                            I have developed various web applications using technologies like HTML5, CSS3,
+                            Javascript, jQuery, Mongodb, Express, Angularjs, Nodejs
+                            I've been taking on various design and development roles in my career to be able to
+                            understand all the ins and outs of the process I have been doing a range of things —
+                            from interaction and user interface design through web development to make sure I
+                            can deliver anything your team needs to get your idea off the ground. </p>
+                        <h6>I work for your users and your customers.</h6>
+                        <h6>Let me show you how.</h6>
+                        <br>
+                    </div>
+                </div>
+                <div class="col-md-5">
+                    <li style="list-style: none;">
+                        <div class='book' style="width: 260px;height: 200px;">
+
+                            <!-- Front -->
+
+                            <ul class='hardcover_front'>
+                                <li>
+                                    <img src="img/savport.jpg" alt="" width="100%" height="100%">
+                                </li>
+                                <li></li>
+                            </ul>
+
+                            <!-- Pages -->
+
+                            <ul class='page'>
+                                <li></li>
+                                <li>
+                                    <a class="btn1" href="https://github.com/saviosam007/"
+                                       style="margin-left: 60px;margin-top: 80px;" target="_blank">Check my GITHUB
+                                        SAMPLES</a>
+                                </li>
+                                <li></li>
+                            </ul>
+                        </div>
+                    </li>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- Skills Section -->
+<section id="team" class="bg-light-gray">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">My Skills</h2>
+
+                <div class="col-sm-6">
+                    <h3>Front-End Programming <strong>Skills</strong></h3>
+
+                    <div class="row">
+                        <div class="col-md-2 skillset">HTML5</div>
+                        <div class="col-md-8">
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="10" aria-valuemin="0"
+                                     aria-valuemax="100" style="width: 87%;">
+                                    <span class="sr-only">87% Complete</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-2 skillset">CSS3</div>
+                        <div class="col-md-8">
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0"
+                                     aria-valuemax="100" style="width: 90%;">
+                                    <span class="sr-only">90% Complete</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-2 skillset">Javascript</div>
+                        <div class="col-md-8">
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0"
+                                     aria-valuemax="100" style="width: 90%;">
+                                    <span class="sr-only">90% Complete</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-2 skillset">Angularjs</div>
+                        <div class="col-md-8">
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0"
+                                     aria-valuemax="100" style="width: 95%;">
+                                    <span class="sr-only">95% Complete</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-2 skillset">Jquery</div>
+                        <div class="col-md-8">
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0"
+                                     aria-valuemax="100" style="width: 90%;">
+                                    <span class="sr-only">90% Complete</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-2 skillset">PHP</div>
+                        <div class="col-md-8">
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0"
+                                     aria-valuemax="100" style="width: 70%;">
+                                    <span class="sr-only">70% Complete</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <h3>Additional <strong>Skills</strong></h3>
+
+                    <div class="row">
+                        <div class="col-md-2 skillset">CoreJava</div>
+                        <div class="col-md-8">
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0"
+                                     aria-valuemax="100" style="width: 85%;">
+                                    <span class="sr-only">85% Complete</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-2 skillset">PL/SQL</div>
+                        <div class="col-md-8">
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0"
+                                     aria-valuemax="100" style="width: 85%;">
+                                    <span class="sr-only">85% Complete</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-2 skillset">Node</div>
+                        <div class="col-md-8">
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0"
+                                     aria-valuemax="100" style="width: 90%;">
+                                    <span class="sr-only">90% Complete</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-2 skillset">MongoDb</div>
+                        <div class="col-md-8">
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0"
+                                     aria-valuemax="100" style="width: 85%;">
+                                    <span class="sr-only">85% Complete</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-2 skillset">Shell Scripting</div>
+                        <div class="col-md-8">
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0"
+                                     aria-valuemax="100" style="width: 85%;">
+                                    <span class="sr-only">85% Complete</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- Contact Section -->
+<section id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">Contact Me</h2>
+
+                <h3 class="section-subheading text-muted">Kindly Fill the details Below</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12" ng-controller="contactFormController">
+                <toaster-container
+                        toaster-options="{'time-out': 3000, 'close-button':true, 'animation-class': 'toast-top-center'}"></toaster-container>
+                <form name="sentMessage" novalidate>
+                    <div class="row" style="margin-top: -45px">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <input type="text" ng-model="contact.name" class="form-control" name="username"
+                                       placeholder="Your Name *" id="username" required maxlength="20">
+                                <span class="errorStyle" ng-show="sentMessage.username.$error.required && notValid"> Required!</span>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" ng-model="contact.email" name="email" class="form-control"
+                                       placeholder="Your Email *" id="inputError2" required aria-describedby="inputError2Status">
+                                <span class="errorStyle" ng-show="sentMessage.email.$error.required && notValid"> Required!</span>
+                                <span class="errorStyle" ng-show="sentMessage.email.$error.email && notValid">Not valid email!</span>
+                                <span class="glyphicon glyphicon-remove form-control-feedback adjust-glyph" ng-show="sentMessage.email.$error.email && notValid" aria-hidden="true"></span>
+                                <p class="help-block text-danger"></p>
+                            </div>
+                            <div class="form-group">
+                                <input type="text" onkeypress='return event.charCode >= 48 && event.charCode <= 57' ng-model="contact.phone" class="form-control"
+                                       placeholder="Your Phone *" id="phone" name="phone" required minlength="10" maxlength="10">
+                                <span class="errorStyle" ng-show="sentMessage.phone.$error.required && notValid"> Required!</span>
+                                <span class="errorStyle" ng-show="sentMessage.phone.$error.minlength && notValid">Not a Valid phoneNumber!</span>
+                                <p class="help-block text-danger"></p>
+                            </div>
+                            <div class="form-group">
+                                <textarea class="form-control" ng-model="contact.message" name="message" style="height:100px"
+                                          placeholder="Your Message *" id="message" required></textarea>
+                                <span class="errorStyle" ng-show="sentMessage.message.$error.required && notValid"> Required!</span>
+                            </div>
+                            <div class="clearfix"></div>
+                            <div class="col-lg-12 text-center">
+                                <div id="success"></div>
+                                <button type="submit" ng-click="submitContactForm()" ng-disabled="messageSuccess" class="btn btn-xl">Send Message
+                                </button>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div id="map">
+                            </div>
+                            <div class="row">
+
+                                <div class="col-sm-4"><h5 style="color: white">Address :</h5>
+
+                                    <p style="color: white">3041 S. Michigan Avenue</p>
+
+                                    <p style="color: white">Chicago, IL 60616 </p>
+                                </div>
+                                <div class="col-sm-4"><h5 style="color: white">Email :</h5>
+
+                                    <p style="color: white">sdarivem@hawk.iit.edu</p>
+                                </div>
+                                <div class="col-sm-4"><h5 style="color: white">Phone :</h5>
+
+                                    <p style="color: white">+1312-975-0014</p>
+                                </div>
+                            </div>
+                            <!--                            <div class="row">
+                                                            <div class="col-sm-6"><h5 style="color: white">Email :</h5>
+
+                                                                <p style="color: white">sdarivem@hawk.iit.edu</p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="row">
+                                                            <div class="col-sm-6"><h5 style="color: white">Phone :</h5>
+
+                                                                <p style="color: white">+1312-975-0014</p>
+                                                            </div>
+                                                        </div>-->
+                        </div>
+
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <span class="copyright">Copyright &copy; Savio's 2016</span>
+            </div>
+            <div class="col-md-4">
+                <ul class="list-inline social-buttons">
+                    <li><a href="https://google.com/+saviojoseph007" title="follow me on Google+" target="_blank"><i
+                            class="fa fa-google-plus"></i></a>
+                    </li>
+                    <li><a href="https://github.com/saviosam007/" title="check my code samples on Github"
+                           target="_blank"><i class="fa fa-github"></i></a>
+                    </li>
+                    <li><a href="https://linkedin.com/in/savio-j" title="Connect on Linkedin" target="_blank"><i
+                            class="fa fa-linkedin"></i></a>
+                    </li>
+                    <li><a href="https://instagram.com/saviosam007/" title="follow me on Instagram" target="_blank"><i
+                            class="fa fa-instagram"></i></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- Portfolio Modals -->
+<!-- Use the modals below to showcase details about your portfolio projects! -->
+
+<div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <div class="modal-body">
+                        <h2>Project Name</h2>
+
+                        <p class="item-intro text-muted">Inventory Management Software</p>
+                        <ul class="text-left list-unstyled">
+                            <li><strong>Sep 2015 - Aug2016</strong></li>
+                            <li><strong>Role: Front End Developer</strong></li>
+                        </ul>
+
+                        <p class="text-left">
+                            Inventory Management System, the project involves design and development of an Internet
+                            based Inventory management software for tracking inventory levels, orders, sales and
+                            deliveries . The aim of the system is to avoid product overstock and outages and organize
+                            inventory data.
+                        </p>
+                        <h5 class="text-left">Responsibilities:</h5>
+                        <ul class="text-left">
+                            <li>Designed user interface for users to interact with system using JQuery, JSON, Java
+                                Script, HTML5, CSS3, and Angular JS
+                            </li>
+                            <li>Worked on creating responsive website for smart devices using responsive design and
+                                media queries.
+                            </li>
+                            <li>Used AngularJS framework along with HTML, CSS, and Java Script to construct the dynamic
+                                web pages (presentation layer) for the application.
+                            </li>
+                            <li>Wrote custom filters, directives, controllers for the HTML using Angular code</li>
+                            <li>Developed advance features like bulk download and Look ahead feature for the
+                                application
+                            </li>
+                            <li>100% coverage of unit test cases using Karma jasmine</li>
+                            <li>Designed selenium Test cases for smoke testing</li>
+                            <li>Used Tortoise SVN for managing subversion of the application.</li>
+                            <li>Testing the website on multiple browsers with their old as well as latest release.</li>
+                            <li>Used agile methodology for the software development.</li>
+                            <li>Developed SQL queries to perform insert, update or delete operation on MySQL database.
+                            </li>
+                            <li>Dependency Injection was used across all the layers of application.</li>
+                            <li>Been an active team player, helped in fixing bugs and also carried out
+                                troubleshooting.
+                            </li>
+                        </ul>
+                        <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i>
+                            Close Project
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <div class="modal-body">
+                        <!-- Project Details Go Here -->
+                        <h2>Project Name</h2>
+
+                        <p class="item-intro text-muted">Payroll Management System</p>
+                        <ul class="text-left list-unstyled">
+                            <li><strong>Jul 2012 - Apr 2014</strong></li>
+                            <li><strong>Role: Senior Software Engineer</strong></li>
+                        </ul>
+
+                        <p class="text-left">
+                            This system was used to maintain all employees detail and calculating their payroll.
+                            It consists of different modules like Employee master, Leave detail, Loan module, Salary
+                            Calculation and Reports.
+                            Employee master stores information of all employees, addition of employees, handling their
+                            resignations, grades, basic salary, educational details and family details.
+                            Separate modules were developed for allowances and deductions. The Leave detail module keeps
+                            track of employee leaves etc.
+                            Reports include employee detail, month wise salary slip, and loan detail; leave detail,
+                            employee record etc.
+                        </p>
+                        <h5 class="text-left">Responsibilities:</h5>
+                        <ul class="text-left">
+                            <li>Involved in all project phase discussions and executed project from PDP (predefined
+                                phase) to rollout phase with post implementation activities.
+                            </li>
+                            <li>Responsible for creating efficient design and developing User Interaction screens using
+                                HTML5/4, CSS3, JavaScript, AngularJS.
+                            </li>
+                            <li>Developed custom filters, directives, controllers for the HTML using Angular code.</li>
+                            <li>Source code management done using GIT</li>
+                            <li>Worked on code reviews, debugging, unit testing and integration testing.
+                            </li>
+                            <li>Worked closely with the services/back end people to discuss the design of the API calls
+                                to be made, to
+                                understand the use cases and implementation of them.
+                            </li>
+                            <li>Provided root cause analysis, impact analysis and efficient solutions to fix issues.
+                            </li>
+                            <li>Used Bower to manage dependencies and run the tasks on the application.</li>
+                            <li>Delivered tasks on time every sprint with each sprint lasting for 2weeks.</li>
+                            <li>Used agile methodology for the software development.</li>
+                        </ul>
+                        <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i>
+                            Close Project
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <div class="modal-body">
+                        <!-- Project Details Go Here -->
+                        <h2>Project Name</h2>
+
+                        <p class="item-intro text-muted">COOL AXSPOINT</p>
+                        <ul class="text-left list-unstyled">
+                            <li><strong>Jul 2011 - June 2012</strong></li>
+                            <li><strong>Role: Software Engineer</strong></li>
+                        </ul>
+
+                        <p class="text-left">
+                            The AXS-One Viewer is a powerful, user-friendly application that allows you to access
+                            documents online. The AXS-One Server is designed to manage large amounts of information and
+                            store it in a pre-processed, compressed state with indexing on both magnetic and other
+                            media. This allows for fast index searching of pre-indexed information as well as general
+                            text searching.
+                            The AXS-One Viewer can overlay the data stored by the AXS-One Central Server with forms, for
+                            a look and feel similar to the original document. In addition, the forms have the ability to
+                            work with rich graphics. The forms can also be printed with the data allowing you to avoid
+                            having to use custom pre-printed paper forms. Information can be exported in a variety of
+                            formats and can be integrated with several popular desktop packages, such as Microsoft Word
+                            and Microsoft Excel.
+                            The AXS-One Central Server provides full security at both the user and document level. There
+                            is an audit trail for monitoring many of these functions.
+                        </p>
+                        <h5 class="text-left">Responsibilities:</h5>
+                        <ul class="text-left">
+                            <li>Interacted with the Clients with respect to the application on boarding and budgeting.
+                            </li>
+                            <li>Co-ordinated with the users and prepared Business/Functional Requirement documents.</li>
+                            <li>Prepared Development and testing estimation and budgeting.</li>
+                            <li>Developed the Front end using HTML, CSS, JavaScript, JSP.</li>
+                            <li>Designed, developed and deployed new application components using HTML, Advanced
+                                JavaScript, CSS and internal frameworks.
+                            </li>
+                            <li>Designed and developed enhancements and wrote stored procedures.</li>
+                            <li>Created Cron job script and utility scripts on server side.</li>
+                            <li>Testing the website on multiple browsers with their old as well as latest release.
+                            </li>
+                            <li>Mentored a junior developer on Web Technologies and internal frameworks.</li>
+                            <li>Used agile methodology for the software development.</li>
+                        </ul>
+                        <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i>
+                            Close Project
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- jQuery -->
+<script src="js/jquery.js"></script>
+
+<!-- Bootstrap Core JavaScript -->
+<!--    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>-->
+<script src="js/bootstrap.min.js"></script>
+
+<!-- Plugin JavaScript -->
+<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+<script src="js/classie.js"></script>
+<script src="js/cbpAnimatedHeader.js"></script>
+
+<!-- Contact Form JavaScript -->
+<script src="js/jqBootstrapValidation.js"></script>
+<!-- <script src="js/contact_me.js"></script>
+-->
+<!-- Custom Theme JavaScript -->
+<script src="js/agency.js"></script>
+<!-- google map-->
+<script src="https://maps.googleapis.com/maps/api/js"></script>
+<script src="js/address.js"></script>
+<script src="bower_components/angular/angular.js"></script>
+<script src="bower_components/angular-route/angular-route.js"></script>
+<script src="app.js"></script>
+<script src="components/version/version.js"></script>
+<script src="components/version/version-directive.js"></script>
+<script src="components/version/interpolate-filter.js"></script>
+<script src="bower_components/angular-animate/angular-animate.min.js"></script>
+<script src="bower_components/angularjs-toaster/toaster.min.js"></script>
+<script src="controller/contactForm.js"></script>
+</body>
+</html>
