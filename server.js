@@ -4,8 +4,8 @@
 var express = require("express");
 var app = express();
 var path = require("path");
-var nodemailer = require('nodemailer');
-var transporter = nodemailer.createTransport();
+//var nodemailer = require('nodemailer');
+//var transporter = nodemailer.createTransport();
 var api_key = 'key-3cc777cdd1607022dec745caa3ceaef3';
 var domain = 'sandbox829dd441b7644562b5e32cbc9b35c701.mailgun.org';
 var mailgun = require('mailgun-js')({apiKey: api_key, domain: domain});
