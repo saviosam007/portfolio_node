@@ -56,7 +56,8 @@
     "karma-firefox-launcher": "^0.1.7",
     "karma-jasmine": "^0.3.8",
     "karma-junit-reporter": "^0.4.2",
-    "protractor": "^3.3.0"
+    "protractor": "^3.3.0",
+    "mailgun-js":"^0.13.1"
   },
   "author": ""
 }
