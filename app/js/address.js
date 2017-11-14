@@ -4,11 +4,11 @@
 function initialize(){
     var mapCanvas = document.getElementById('map');
     var mapOptions = {
-        center: new google.maps.LatLng(41.839141, -87.622303),
+        center: new google.maps.LatLng(33.066323,-96.7980676),
         zoom: 8
    };
     var map = new google.maps.Map(mapCanvas, mapOptions);
-    var companyPos = new google.maps.LatLng(41.839141,-87.622303);
+    var companyPos = new google.maps.LatLng(33.066323,-96.7980676);
     var companyMarker = new google.maps.Marker({
         position: companyPos,
         map: map,
